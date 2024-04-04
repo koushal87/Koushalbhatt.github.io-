@@ -1,0 +1,140 @@
+body {margin:0px; padding: 0px; font-family: 'Poppins', sans-serif; }
+a, a:hover, a:focus {text-decoration: none; outline: none;}
+li, li:hover, li:focus {outline: none; list-style-type: none;}
+input, button, button:hover, button:focus {outline: none}
+.section {padding-top: 100px; display: inline-block; width: 100%;}
+.page_title {font-size:30px; text-align: center; color: #333333; font-family: 'Playfair Display', serif; line-height:30px;}
+
+
+header {width: 100%; height: auto; margin: 0px; padding: 0px; }
+.navbar-light .navbar-nav .nav-link {color: #fff; font-size: 15px; padding: 0px 20px}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {color: #fff;}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {color: #fff;}
+.shrink {width:100%; height: auto; background: rgba(0, 0, 0, 0.5); box-shadow: 0px 0px 10px #444;}
+.nav_item {position: relative;}
+.cart {margin: 0px 10px; padding: 0px; display: inline-block;}
+.cart a {background: url("../img/ic-cart.png") no-repeat left 0px; padding: 0px 0px 0px 30px; font-size: 15px; color: #fff;}
+.btn_signin {margin: 0px; padding: 8px 20px; font-size: 15px; text-align: center; color: #fff; border-radius: 50px; border: 1px solid #fff; background: none; cursor: pointer}
+
+
+.banner {width: 100%; height: auto; margin: 0px; padding:0% 0px; position: relative;}
+.banner .carousel-caption {bottom: inherit; top: 35%; left: 10%; right: inherit}
+.banner .carousel-caption h2 {font-size:35px;  text-align: left; color: #fff; font-weight: 600}
+.banner .carousel-caption h3 {font-size:20px;  text-align: left; color: #fff; font-weight:400}
+.banner .carousel-caption p {font-size:15px;  text-align: left; color: #8bc34a; font-weight:400; margin:0px ; padding: 10px 0 0px}
+.btn_get {margin:45px 0 0px; padding: 0px; display: inline-block; float: left}
+.btn_get a {margin: 0px; padding:10px 30px; font-size: 14px; text-align: center; color: #fff; border-radius:30px; border: 1px solid #fff; font-weight: 600}
+.banner .carousel-indicators li {width: 10px; height: 10px; background: #fff; border-radius: 50%}
+.banner .carousel-indicators .active {background: #8bc34a}
+.btn_request {margin: 0px; padding:0px; display: inline-block; position: absolute; right: -30px; top: 45%;   -ms-transform: rotate(-90deg);  transform: rotate(-90deg); }
+.btn_request a {margin: 0px; padding: 10px 30px; background:#216633; font-size: 15px; text-align: center; border-radius: 50px; color:#fff;}
+
+/*About Us*/
+.aboutUs {width:100%; height: auto; display: inline-block;}
+.aboutUs h1 {font-size:45px; text-align: left; color: #828282; font-family: 'Playfair Display', serif; line-height:60px; margin: 0px 0px 30px}
+.aboutUs h1 em {color:#216633}
+.aboutUs p {font-size: 15px; text-align: left; color: #333; margin: 0px; padding: 0px; line-height: 30px;  display: inline-block;}
+.learn_more {margin:35px 0px 0px; padding: 0px; display: inline-block;}
+.learn_more a {font-size: 15px; text-align: center; color: #fff; background: #216633; border-radius: 50px; margin: 0px; padding: 10px 30px}
+
+.aboutUs .owl-carousel {padding: 0px 50px; text-align: center; }
+.aboutUs .owl-carousel .item h4 {font-size: 22px; text-align: center; margin: 0px; padding:70px 0px 40px; color:#828282; font-weight: 400; line-height: 35px; position: relative}
+.aboutUs .owl-carousel .item h4 span {color: #216633; font-weight: 600; font-size: 25px; font-style:italic}
+.aboutUs .owl-carousel .item h4:after {width: 153px; height: 153px; background: url("../img/border-slide-top.png") no-repeat left top; position: absolute; right: 40px; top: 30px; content: ""}
+.aboutUs .owl-carousel .item h4:before {width: 153px; height: 153px; background: url("../img/border-slide-bottom.png") no-repeat left top; position: absolute; left: 88px; bottom: -40px; content: ""}
+.owl-dots {text-align: center; padding-top: 15px;}
+.owl-dots button.owl-dot {width: 10px; height: 10px; border-radius: 50%; display: inline-block;  background: #ccc; margin: 0 3px;}
+.owl-dots button.owl-dot.active {background-color: #216633;}
+.owl-dots button.owl-dot:focus { outline: none;}
+
+/*Product categeory*/
+.product_box {text-align: center; color: #fff; position: relative;}
+ .product_box .box-content, .product_box:after {width: 100%; position: absolute; left: 0;}
+ .product_box:after { content: ""; height: 100%; background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.08) 69%, rgba(0, 0, 0, 0.76) 100%); top: 0; transition: all 0.5s ease 0s;}
+ .product_box .title, .product_box .btn_explore { transform: translateY(0px); transition: all 0.4s cubic-bezier(0.13, 0.62, 0.81, 0.91) 0s;}
+ .product_box:hover:after {background:rgba(0, 0, 0, 0.6);}
+ .product_box img {width: 100%; height: auto;}
+ .product_box .box-content {padding: 20px; margin-bottom: 20px; bottom: 0; z-index: 1;}
+ .product_box .title { font-size: 25px; font-weight: 700; text-transform: uppercase; margin: 0 0 10px; color: #fff;line-height: 38px;}
+.product_box:hover .title, .product_box:hover .btn_explore {transform: translateY(-145px);}
+.btn_explore {margin: 20px 0px 0px; padding: 0px; display: inline-block; text-align: center;}
+.btn_explore a  {margin: 0px; padding: 10px 30px; font-size: 15px; text-align: center; color: #fff; font-weight:500; border:1px solid #fff; border-radius: 50px;}
+.btn_explore a i {font-weight: normal; padding: 0px 10px 0px 0;}
+
+.Our_partners {position:relative; text-align: center; }
+.Our_partners .tag_img {position: relative; z-index: 1;margin:30px 0px 0px}
+.Our_partners .tag_img:before {border-top: 2px solid #216633; content:""; margin: 0 auto; position: absolute; top: 50%; left: 0; right: 0; bottom: 0; width: 95%; z-index: -1;}
+.Our_partners .tag_img span { background: #fff; padding: 0 30px;  }
+
+.recent_block {width: 100%; height: auto; margin: 0px; padding: 0px; display: inline-block;}
+.recent_block .card {margin: 0px; padding: 0px; border: none; }
+.recent_block .card .card-body {padding: 20px 0px; margin: 0px; width: 100%;}
+.recent_block .card .card-body h5 {font-size: 18px; color: #333; font-weight: 400; margin: 0px; padding:  0px 0px 10px;}
+.recent_block .card .card-body h6 {font-size: 13px; color: #333; font-weight: 400; margin: 0px; padding:  0px 0px 15px;}
+.btn_green {margin: 0px 0px 15px; padding: 0px; display: inline-block}
+.btn_green a {margin: 0px; padding: 4px 30px; background: #216633; font-size: 13px; text-align: center; color: #fff; border-radius: 50px}
+.recent_block .card .card-body p {font-size: 15px; color: #333; font-weight: 400; line-height: 28px;  margin: 0px; padding:  0px 0px 25px;}
+.btn_read {margin: 0px; padding: 0px; display: inline-block;}
+.btn_read a {font-size: 14px; text-align: left; color: #333; margin: 0px; padding: 0px;}
+.btn_read a:hover {color:#216633 }
+
+
+
+footer {text-align: center; width: 100%; margin:100px 0px 0px; padding: 70px 0px 0; background: #fff6e9}
+footer .ftr_menu {width:auto; height: auto; margin: 0px; padding: 0px; display: flex}
+footer .ftr_menu ul {width: 100%; height: auto; margin: 0px; padding: 0px;}
+footer .ftr_menu ul li {margin:0px 0px 15px; padding: 0px; width:49%; text-align: left; display: inline-block}
+footer .ftr_menu ul li a {font-size: 14px; text-align: left; color: #333; margin: 0px; padding: 0px 0px 0px;}
+address p {font-size: 14px; text-align: left; color: #333; margin: 0px; padding: 0px 0px 15px;}
+address p a {color: #333;}
+address p img {margin: 0px 0px 0px 0px;}
+.btncatelog {margin: 0px; padding: 0px; display: inline-block; text-align: center}
+.btncatelog a {margin: 0px; padding: 10px 30px; display: inline-block; font-size: 14px; border-radius: 50px; border: 1px solid #333; color: #333;}
+.social_block {width: 100%; height: auto; display: inline-block; text-align: center; margin: 30px 0px 0px}
+.social_block ul {width: 100%; height: auto; margin: 0px; padding: 0px; text-align: center}
+.social_block ul li {display: inline-block; text-align: center; margin: 0px 0px 0px 30px;}
+.social_block ul li:first-child {margin-left: 0px;}
+.copyright {width: 100%; height: auto; padding:20px 0px; margin:40px 0px 0px; background: #f0e7d9;}
+.copyright p {font-size: 12px; color: #333; margin: 0px; padding: 0px;}
+@media (max-width:1024px) {
+	br {display: none;}
+	.navbar-brand {width: 9%;}
+	.navbar-light .navbar-nav .nav-link {font-size: 14px; padding: 0px 10px;}
+	.aboutUs h1 {font-size: 40px;}
+	.aboutUs .owl-carousel .item h4::before {left: 30px; bottom: -42px}
+	.aboutUs .owl-carousel .item h4::after {right: 0px; top:30px;}
+	.aboutUs .owl-carousel .item h4 br, .product_box .title br {display: block}
+	.product_box .title {font-size: 20px; line-height: 28px;}
+	address {margin: 30px 0px 0px}
+	address p {text-align: center}
+}
+@media (max-width:991px) {
+	.section {padding-top: 50px;}
+	.navbar-light .navbar-toggler-icon {background: url("../img/toggle.png") no-repeat center center}
+	.aboutUs h1 {font-size: 30px; line-height: 38px; margin-bottom: 20px}
+	.navbar-collapse {background: rgba(0, 0, 0, 0.5); text-align: center;padding: 20px 0px}
+	.navbar-light .navbar-nav .nav-item {padding: 10px 0px 0px;}
+	.cart {width: 100%; padding: 10px 0px 0px;}
+	.btn_signin {margin: 10px 0px 0px}
+	.aboutUs .owl-carousel .item h4::before {left: 0; bottom: -34px;}
+	.aboutUs .owl-carousel .item h4::after {right: -41px; top: 30px;}
+	
+	
+}
+@media (max-width:767px) {
+	.navbar-collapse {background: #000}
+	.banner .carousel-caption {top: 14%; left: 4%;}
+	.banner .carousel-caption h2 {font-size: 20px;}
+	.banner .carousel-caption h3 {font-size: 16px;}
+	.banner .carousel-caption p {font-size: 14px; padding-top: 0}
+	.btn_get {margin-top: 20px;}
+	.btn_request {right: -38px;}
+	.btn_request a {padding: 9px 17px; font-size: 13px;}
+	.aboutUs h1 {text-align: center; font-size: 25px;}
+	.aboutUs p, .aboutUs {text-align: center}
+	.aboutUs .owl-carousel {padding: 0px 20px}
+	.aboutUs .owl-carousel .item h4::before, .aboutUs .owl-carousel .item h4::after {display: none;}
+	.aboutUs .owl-carousel .item h4 {padding:50px 0px 0}
+	.page_title {font-size: 25px;}
+	.copyright p {text-align: center}
+}
